@@ -1,0 +1,18 @@
+.nav {
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+
+  background-color: rgb(80, 80, 121);
+  .logo {
+    font-family: "Montserrat", sans-serif;
+    padding: 2rem;
+    flex: 8;
+    color: white;
+  }
+  .cumulativeScore {
+    font-size: 1.5rem;
+    flex: 1;
+    color: white;
+  }
+}
