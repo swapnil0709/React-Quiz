@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+}
+.left {
+  min-height: 90vh;
+  width: 50%;
+  background-color: AEA293;
+}
+
+.right {
+  min-height: 90vh;
+  width: 50%;
+  background-color: #c68762;
+}

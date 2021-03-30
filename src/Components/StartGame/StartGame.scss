@@ -1,0 +1,32 @@
+.containerStart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20rem;
+}
+.btnNext1 {
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  background: #a53a28c0;
+  font-family: "Poppins", sans-serif;
+  margin-top: 3rem;
+  width: 30%;
+  transform: scale(1);
+  transition: all 0.5s ease;
+  border-radius: 0.5rem;
+  &:hover {
+    background: #df3a1d;
+    transform: scale(1.1);
+  }
+}
+.btnNext2 {
+  @extend .btnNext1;
+  color: black;
+  background: #e7e2dc;
+  &:hover {
+    background: #aea293;
+  }
+}
